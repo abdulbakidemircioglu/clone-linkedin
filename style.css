@@ -1,0 +1,40 @@
+body{
+    background-color: #f3f2ef;
+}
+navbarbg{
+    background-color: white;
+}
+input.search{
+    height: 35px;
+    max-width: 500px;
+    background-color: #e3e6e9;
+}
+input.search::placeholder{
+    background-image:url(/img/search.svg);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    color: gray;
+    font-size: 16px;
+}
+
+.nav-item small{
+    display: block;
+    font-size: 0.8rem;
+}
+.nav-item{
+    text-align: center;
+    min-width: 100px;
+}
+.text-d{
+    min-width: 80px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    min-height: 55px;
+    font-weight: 400px;
+    max-width: 125px;
+    color: #915907;
+}
+
+.text-d:hover{
+    text-decoration: underline;
+}
